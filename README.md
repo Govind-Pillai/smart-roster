@@ -4,7 +4,7 @@ A production-ready, full-stack **Smart Roster Management System** tailored for D
 
 ---
 
-## 🌟 Key Features
+## Key Features
 
 1. **Deterministic Scheduling Engine (`scheduler/engine.py`):**
    - Staggers weekly offs for shared-brand staffing pools to preserve minimum required headcount (`min_daily_staff`).
@@ -28,7 +28,7 @@ A production-ready, full-stack **Smart Roster Management System** tailored for D
 
 ---
 
-## 🏗️ Architecture & Relational Schema
+## Architecture & Relational Schema
 
 ```mermaid
 erDiagram
@@ -58,7 +58,7 @@ erDiagram
 
 ---
 
-## 🚀 Quickstart Guide
+## Quickstart Guide
 
 ### 1. Backend Setup (Django + DRF)
 
@@ -104,7 +104,7 @@ Open your browser to `http://localhost:5173`.
 
 ---
 
-## 🧪 Verification & Simulation Walkthrough
+##  Verification & Simulation Walkthrough
 
 1. Click **"Generate Roster"** in the top bar for November 2026.
 2. Notice the live conflict badge updating with detected Critical coverage gaps (single-resource 365-day brands on weekly off) and soft warnings.
